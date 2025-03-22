@@ -7,27 +7,27 @@ export default function Profile() {
       <div className='profile-parent'> 
         
           <div className='colz'>
+            <div className='colz-icon'>
+
+            <a href='https://www.facebook.com/profile.php?id=100076480744147'>
+              <i className='fa fa-facebook-square'></i>
+            </a>
+            <a href='linkedin.com/in/aakriti-banjara-2b5b66240'>
+              <i className='fa fa-linkedin-square'></i>
+            </a>
+            <a href='https://joyfuldev.itch.io/'>
+              <i className='fa fa-gamepad'></i> {/* Use a relevant icon or a custom one for itch.io */}
+            </a>
+            <a href='https://github.com/Aakriti555?tab=projects'>
+              <i className='fa fa-github'></i>
+            </a>
+            </div>
             {/* yesko baki xa hai link haru milauna */}
-            <a href='https://www.facebook.com'> 
-              <i className='fa fa-facebook-square'></i> 
-            </a>
-            <a href='https://plus.google.com'>
-              <i className='fa fa-google-plus-square'></i>
-            </a>
-            <a href='https://www.instagram.com'>
-              <i className='fa fa-instagram'></i>
-            </a>
-            <a href='https://www.youtube.com'>
-              <i className='fa fa-youtube-square'></i>
-            </a>
-            <a href='https://www.twitter.com'>
-              <i className='fa fa-twitter'></i>
-            </a>
           </div>
           <div className='profile-details'>
             <span className='Primary-text'>
               {" "}
-              Hello, I'M <span className='highlighted-text'>Aakriti Banjara</span>
+              Hello, I'm <span className='highlighted-text'>Aakriti Banjara</span>
             </span>
         </div>
         <div className='profile-details-role'>
@@ -56,7 +56,25 @@ export default function Profile() {
             ]}
             />
             </h1>
+            <span className='profile-role-tagline'>
+            "Pioneering the Future of Tech and AI 🌟🤖"  
+            </span>
           </span>
+        </div>
+        <div className='profile-options'>
+          <button className='btn primary-btn'>
+            {""}
+            Hire Me 
+            {""}
+          </button>
+          <a href='personal data\Aakriti-Banjara-CV.pdf' download={'Aakriti_Banjara-CV.pdf'}>
+            <button className='btn highlighted-btn'>Get Cv</button>
+          </a>
+        </div>
+      </div>
+      <div className='profile-picture'>
+        <div className='profile-picture-background'>
+
         </div>
       </div>
     </div>
